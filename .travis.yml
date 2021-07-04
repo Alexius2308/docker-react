@@ -4,7 +4,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t Alexius2308/docker-react -f Dockerfile.dev .
+  - docker build -t alexius2308/docker-react -f Dockerfile.dev .
 
 script:
-  -  docker run -e CI=true Alexius2308/docker-react -react npm run test
+  -  docker run -e CI=true alexius2308/docker-react -react npm run test
