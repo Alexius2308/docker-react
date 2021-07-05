@@ -9,14 +9,7 @@ function App() {
         <p>
 			Jopa there!	
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Nothing to do here. It's better to follow this link.
-        </a>
+        <p>Nothing to do here. Go to smell BEBRA</p>
       </header>
     </div>
   );
